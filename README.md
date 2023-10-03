@@ -1,4 +1,4 @@
-# new_super_bolcheland
+# New Super Bolcheland
 
 Dépôt contenant les fichiers liés à un projet de NSI sur les bases de données.
 
