@@ -40,7 +40,7 @@ Primary key : Numéro d'employé
 
 ### Billets
 
-Primary key : Numéro de billet
+Primary key : Numéro de billet  
 Foreign key : Numéro de client
 
 |   Billets   |
@@ -72,7 +72,7 @@ Primary key : Numéro de menu
 
 ### Acheter menu
 
-Primary keys : Numéro restaurant ; Numéro de client ; Numéro de menu
+Primary keys : Numéro restaurant ; Numéro de client ; Numéro de menu  
 Foreign keys : Numéro restaurant ; Numéro de client ; Numéro de menu
 
 |   Acheter menu   |
@@ -95,7 +95,7 @@ Primary key : Numéro d'attraction
 
 ### Affectation attraction
 
-Primary keys : Numéro attraction ; Numéro d'employé
+Primary keys : Numéro attraction ; Numéro d'employé  
 Foreign keys : Numéro attraction ; Numéro d'employé
 
 |   Affectation attraction   |
