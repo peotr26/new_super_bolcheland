@@ -1,21 +1,21 @@
 # New Super Bolcheland
 
-Dépôt contenant les fichiers liés à un projet de NSI sur les bases de données.
+Repo containing files linked to a computer science class project on databases.
 
 ## Structures
 
 ### /src
 
-Contient les fichiers de données.
-Notamment la base de données et les fichiers SQL associés.
+Contains data files.
+Such as the database and related SQL files.
 
-Cette partie est sous licence GNU-GPLv3.
+This sections is under the GNU-GPLv3 license.
 
 
 ### /docs
 
-Contient les fichiers de documentation.
-Notamment le fichier Markdown à rendre à la professeure.
-Ainsi que les schémas SVG.
+Contains documentation files.
+Such as the Markdown file due to be given to the teacher.
+As well as SVG reference models.
 
-Cette partie est sous licence CC BY-NC-SA 4.0.
+This sections is under the CC BY-NC-SA 4.0 license.
