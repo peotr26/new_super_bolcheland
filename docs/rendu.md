@@ -21,7 +21,6 @@ Primary key : Numéro client
 |-------------|
 | Numéro de client |
 | Nom |
-| Prénom |
 | Age |
 
 ### Employés
@@ -53,10 +52,12 @@ Foreign key : Numéro de client
 ### Restaurants
 
 Primary key : Numéro restaurant
+Foreign key : Numéro employé
 
 |   Restaurants  |
 |----------------|
 | Numéro restaurant |
+| Numéro empolyé |
 | Nom de restaurant |
 | Nombre de place |
 
