@@ -2,7 +2,7 @@
 
 ## Introduction
 
-On aura tables:
+Nous aurons les tables:
 
 - Clients
 - Employés
@@ -10,99 +10,99 @@ On aura tables:
 - Restaurants
 - Menus
 - Acheter menu
-- Attraction
-- Affectation attraction
+- Attractions
+- Affectation_attraction
 
 ### Clients
 
-Primary key : Numéro client
+Primary key : Id_client
 
 |   Clients   |
 |-------------|
-| Numéro de client |
+| Id_client |
 | Nom |
 | Age |
 
 ### Employés
 
-Primary key : Numéro d'employé
+Primary key : Id_employé
 
 |   Employés   |
 |--------------|
-| Numéro d'employé |
+| Id_employé |
 | Nom|
 | Prénom |
-| Date de naissance | 
-| Rôle |
-| Salaire à l'heure |
-| Nombre d'heure de travail par semaine |
+| Date_naissance | 
+| Role |
+| Salaire_par_heure |
+| Nb_heure_par_semaine |
 
 ### Billets
 
-Primary key : Numéro de billet  
-Foreign key : Numéro de client
+Primary key : Id_billet  
+Foreign key : Id_client
 
 |   Billets   |
 |-------------|
-| Numéro de billet |
-| Numéro de client |
-| Prix du billet |
-| Billet enfant |
+| Id_billet |
+| Id_client |
+| Prix_billet |
+| Billet_enfant |
 
 ### Restaurants
 
-Primary key : Numéro restaurant
-Foreign key : Numéro employé
+Primary key : Id_restaurant  
+Foreign key : Id_employé
 
 |   Restaurants  |
 |----------------|
-| Numéro restaurant |
-| Numéro employé |
-| Nom de restaurant |
-| Nombre de place |
+| Id_restaurant |
+| Id_employé |
+| Nom_restaurant |
+| Nb_place |
 
 ### Menus
 
-Primary key : Numéro de menu
+Primary key : Id_menu
 
 |   Menus   |
 |-----------|
-| Numéro de menu |
-| Nom du menu |
-| Prix du menu |
+| Id_menu |
+| Nom_menu |
+| Prix_menu |
 
 ### Acheter menu
 
-Primary keys : Numéro restaurant ; Numéro de client ; Numéro de menu  
-Foreign keys : Numéro restaurant ; Numéro de client ; Numéro de menu
+Primary keys : Id_restaurant ; Id_client ; Id_menu  
+Foreign keys : Id_restaurant ; Id_client ; Id_menu
 
 |   Acheter menu   |
 |------------------|
-| Numéro restaurant |
-| Numéro de client |
-| Numéro de menu |
-| Nombre |
+| Id_restaurant |
+| Id_client |
+| Id_menu |
+| Nb_menu |
 
 ### Attractions
 
-Primary key : Numéro d'attraction
+Primary key : Id_attraction
 
 |   Attractions   |
 |-----------------|
-| Numéro attraction |
-| Nombre de place |
-| Nombre de personnel |
-| Coût à l'heure |
+| Id_attraction |
+| Nb_place |
+| Nb_personnel |
+| Cout_par_heure |
 
 ### Affectation attraction
 
-Primary keys : Numéro attraction ; Numéro d'employé  
-Foreign keys : Numéro attraction ; Numéro d'employé
+Primary keys : Id_attraction ; Id_employé  
+Foreign keys : Id_attraction ; Id_employé
 
-|   Affectation attraction   |
+|   Affectation_attraction   |
 |----------------------------|
-| Numéro attraction |
-| Numéro d'employé |
+| Id_attraction |
+| Id_employé |
 | Date |
-| Horaire de début |
+| Horaire_debut |
 | Durée |
