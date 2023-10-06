@@ -57,7 +57,7 @@ Foreign key : Numéro employé
 |   Restaurants  |
 |----------------|
 | Numéro restaurant |
-| Numéro empolyé |
+| Numéro employé |
 | Nom de restaurant |
 | Nombre de place |
 
