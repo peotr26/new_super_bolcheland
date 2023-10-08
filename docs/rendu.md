@@ -5,33 +5,33 @@
 Nous aurons les tables:
 
 - Clients
-- Employés
+- Employes
 - Billets
 - Restaurants
 - Menus
-- Acheter menu
+- Acheter_menu
 - Attractions
 - Affectation_attraction
 
 ### Clients
 
-Primary key : Id_client
+Primary key : ID_client
 
 |   Clients   |
 |-------------|
-| Id_client |
+| ID_client |
 | Nom |
 | Age |
 
-### Employés
+### Employes
 
-Primary key : Id_employé
+Primary key : ID_employe
 
-|   Employés   |
+|   Employes   |
 |--------------|
-| Id_employé |
+| ID_employe |
 | Nom|
-| Prénom |
+| Prenom |
 | Date_naissance | 
 | Role |
 | Salaire_par_heure |
@@ -39,70 +39,70 @@ Primary key : Id_employé
 
 ### Billets
 
-Primary key : Id_billet  
-Foreign key : Id_client
+Primary key : ID_billet  
+Foreign key : ID_client
 
 |   Billets   |
 |-------------|
-| Id_billet |
-| Id_client |
+| ID_billet |
+| ID_client |
 | Prix_billet |
 | Billet_enfant |
 
 ### Restaurants
 
-Primary key : Id_restaurant  
-Foreign key : Id_employé
+Primary key : ID_restaurant  
+Foreign key : ID_employe
 
 |   Restaurants  |
 |----------------|
-| Id_restaurant |
-| Id_employé |
+| ID_restaurant |
+| ID_employe |
 | Nom_restaurant |
 | Nb_place |
 
 ### Menus
 
-Primary key : Id_menu
+Primary key : ID_menu
 
 |   Menus   |
 |-----------|
-| Id_menu |
+| ID_menu |
 | Nom_menu |
 | Prix_menu |
 
 ### Acheter menu
 
-Primary keys : Id_restaurant ; Id_client ; Id_menu  
-Foreign keys : Id_restaurant ; Id_client ; Id_menu
+Primary keys : ID_restaurant ; ID_client ; ID_menu  
+Foreign keys : ID_restaurant ; ID_client ; ID_menu
 
 |   Acheter menu   |
 |------------------|
-| Id_restaurant |
-| Id_client |
-| Id_menu |
+| ID_restaurant |
+| ID_client |
+| ID_menu |
 | Nb_menu |
 
 ### Attractions
 
-Primary key : Id_attraction
+Primary key : ID_attraction
 
 |   Attractions   |
 |-----------------|
-| Id_attraction |
+| ID_attraction |
 | Nb_place |
 | Nb_personnel |
 | Cout_par_heure |
 
 ### Affectation attraction
 
-Primary keys : Id_attraction ; Id_employé  
-Foreign keys : Id_attraction ; Id_employé
+Primary keys : ID_attraction ; ID_employe  
+Foreign keys : ID_attraction ; ID_employe
 
 |   Affectation_attraction   |
 |----------------------------|
-| Id_attraction |
-| Id_employé |
+| ID_attraction |
+| ID_employe |
 | Date |
 | Horaire_debut |
-| Durée |
+| Duree |
