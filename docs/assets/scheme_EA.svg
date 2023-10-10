@@ -373,7 +373,7 @@
         <rect class="BoundingBox" stroke="none" fill="none" x="21749" y="4749" width="6504" height="1504"/>
         <path fill="rgb(114,159,207)" stroke="none" d="M 28251,5501 C 28251,5632 28101,5762 27816,5876 27530,5990 27120,6085 26626,6150 26132,6216 25571,6251 25001,6251 24430,6251 23869,6216 23375,6150 22881,6085 22471,5990 22185,5876 21900,5762 21750,5632 21750,5501 21750,5369 21900,5239 22185,5125 22471,5011 22881,4916 23375,4851 23869,4785 24430,4750 25000,4750 25571,4750 26132,4785 26626,4851 27120,4916 27530,5011 27816,5125 28101,5239 28251,5369 28251,5500 L 28251,5501 Z"/>
         <path fill="none" stroke="rgb(52,101,164)" d="M 28251,5501 C 28251,5632 28101,5762 27816,5876 27530,5990 27120,6085 26626,6150 26132,6216 25571,6251 25001,6251 24430,6251 23869,6216 23375,6150 22881,6085 22471,5990 22185,5876 21900,5762 21750,5632 21750,5501 21750,5369 21900,5239 22185,5125 22471,5011 22881,4916 23375,4851 23869,4785 24430,4750 25000,4750 25571,4750 26132,4785 26626,4851 27120,4916 27530,5011 27816,5125 28101,5239 28251,5369 28251,5500 L 28251,5501 Z"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Mono, monospace" font-size="494px" font-weight="400"><tspan class="TextPosition" x="23369" y="5352"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Responsable </tspan></tspan><tspan class="TextPosition" x="23518" y="5911"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">restaurant</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Mono, monospace" font-size="494px" font-weight="400"><tspan class="TextPosition" x="23369" y="5352"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Affectation </tspan></tspan><tspan class="TextPosition" x="23518" y="5911"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">restaurant</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -419,13 +419,13 @@
       <g class="TextShape">
        <g id="id43">
         <rect class="BoundingBox" stroke="none" fill="none" x="23250" y="7204" width="2001" height="650"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Mono, monospace" font-size="353px" font-weight="400"><tspan class="TextPosition" x="23615" y="7621"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">(0, 1)</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Mono, monospace" font-size="353px" font-weight="400"><tspan class="TextPosition" x="23615" y="7621"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">(0, n)</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="TextShape">
        <g id="id44">
         <rect class="BoundingBox" stroke="none" fill="none" x="19150" y="4905" width="2001" height="650"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Mono, monospace" font-size="353px" font-weight="400"><tspan class="TextPosition" x="19515" y="5322"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">(1, 1)</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Mono, monospace" font-size="353px" font-weight="400"><tspan class="TextPosition" x="19515" y="5322"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">(1, n)</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.ConnectorShape">
