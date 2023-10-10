@@ -17,6 +17,8 @@ Nous aurons les tables:
 
 Primary key : ID_client
 
+Clients(<ins>ID_client</ins>, Nom, Age)
+
 |   Clients   |
 |-------------|
 | ID_client |
@@ -26,6 +28,8 @@ Primary key : ID_client
 ### Employes
 
 Primary key : ID_employe
+
+Employes(<ins>ID_employe</ins>, Nom, Prenom, Date_naissance, Role, Salaire_par_heure, Nb_heure_par_semaine)
 
 |   Employes   |
 |--------------|
@@ -42,6 +46,8 @@ Primary key : ID_employe
 Primary key : ID_billet  
 Foreign key : ID_client
 
+Billets(<ins>ID_billet</ins>, #ID_client, Prix_billet, Billet_enfant)
+
 |   Billets   |
 |-------------|
 | ID_billet |
@@ -53,6 +59,8 @@ Foreign key : ID_client
 
 Primary key : ID_restaurant  
 Foreign key : ID_employe
+
+Restaurants(<ins>ID_restaurant</ins>, #ID_employe, Nom_restaurant, Nb_place)
 
 |   Restaurants  |
 |----------------|
@@ -66,6 +74,8 @@ Foreign key : ID_employe
 Primary keys : ID_restaurant ; ID_employe  
 Foreign keys : ID_restaurant ; ID_employe
 
+Affectation_restaurant(#<ins>ID_restaurant</ins>, #<ins>ID_employe</ins>, Date, Horaire_debut, Duree)
+
 |   Affectation_restaurant   |
 |----------------------------|
 | ID_restaurant |
@@ -78,6 +88,8 @@ Foreign keys : ID_restaurant ; ID_employe
 
 Primary key : ID_menu
 
+Menus(<ins>ID_menu</ins>, Nom_menu, Prix_menu)
+
 |   Menus   |
 |-----------|
 | ID_menu |
@@ -88,6 +100,8 @@ Primary key : ID_menu
 
 Primary keys : ID_restaurant ; ID_client ; ID_menu  
 Foreign keys : ID_restaurant ; ID_client ; ID_menu
+
+Acheter_menu(#<in>ID_restaurant</ins>, #<ins>ID_client</ins>, #<ins>ID_menu</ins>, Nb_menu)
 
 |   Acheter menu   |
 |------------------|
@@ -100,6 +114,8 @@ Foreign keys : ID_restaurant ; ID_client ; ID_menu
 
 Primary key : ID_attraction
 
+Attractions(<ins>ID_attraction</ins>, Nb_place, Nb_personnel, Cout_par_heure)
+
 |   Attractions   |
 |-----------------|
 | ID_attraction |
@@ -111,6 +127,8 @@ Primary key : ID_attraction
 
 Primary keys : ID_attraction ; ID_employe  
 Foreign keys : ID_attraction ; ID_employe
+
+Affectation_attraction(#<ins>ID_attraction</ins>, #<ins>ID_employe</ins>, Date, Horaire_debut, Duree)
 
 |   Affectation_attraction   |
 |----------------------------|
