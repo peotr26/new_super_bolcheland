@@ -61,6 +61,19 @@ Foreign key : ID_employe
 | Nom_restaurant |
 | Nb_place |
 
+### Affectation_restaurant
+
+Primary keys : ID_restaurant ; ID_employe  
+Foreign keys : ID_restaurant ; ID_employe
+
+|   Affectation_restaurant   |
+|----------------------------|
+| ID_restaurant |
+| ID_employe |
+| Date |
+| Horaire_debut |
+| Duree |
+
 ### Menus
 
 Primary key : ID_menu
