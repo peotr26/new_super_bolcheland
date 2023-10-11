@@ -60,12 +60,11 @@ Billets(<ins>ID_billet</ins>, #ID_client, Prix_billet, Billet_enfant)
 Primary key : ID_restaurant  
 Foreign key : ID_employe
 
-Restaurants(<ins>ID_restaurant</ins>, #ID_employe, Nom_restaurant, Nb_place)
+Restaurants(<ins>ID_restaurant</ins>, Nom_restaurant, Nb_place)
 
 |   Restaurants  |
 |----------------|
 | ID_restaurant |
-| ID_employe |
 | Nom_restaurant |
 | Nb_place |
 
