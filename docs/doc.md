@@ -137,3 +137,13 @@ Affectation_attraction(#<ins>ID_attraction</ins>, #<ins>ID_employe</ins>, Date, 
 | Date |
 | Horaire_debut |
 | Duree |
+
+## Schémas
+
+### Schéma Entité-Association
+
+![Schéma Entité-Association](assets/scheme_EA.svg)
+
+### Schéma relationnel
+
+![Schéma relationnel](assets/scheme_relationnel.svg)
