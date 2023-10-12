@@ -8,6 +8,7 @@ Nous aurons les tables:
 - Employes
 - Billets
 - Restaurants
+- Affectation_restaurant
 - Menus
 - Acheter_menu
 - Attractions
