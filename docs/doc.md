@@ -16,8 +16,6 @@ Nous aurons les tables:
 
 ### Clients
 
-Primary key : ID
-
 Clients(<ins>ID</ins>, Nom, Age)
 
 |   Clients   |
@@ -27,8 +25,6 @@ Clients(<ins>ID</ins>, Nom, Age)
 | Age |
 
 ### Employes
-
-Primary key : ID
 
 Employes(<ins>ID</ins>, Nom, Prenom, Date_naissance, Role, Salaire_horaire, Heures_hebdomadaires)
 
@@ -44,9 +40,6 @@ Employes(<ins>ID</ins>, Nom, Prenom, Date_naissance, Role, Salaire_horaire, Heur
 
 ### Billets
 
-Primary key : ID
-Foreign key : ID_client
-
 Billets(<ins>ID</ins>, #ID_client, Prix_billet, Enfant)
 
 |   Billets   |
@@ -58,8 +51,6 @@ Billets(<ins>ID</ins>, #ID_client, Prix_billet, Enfant)
 
 ### Restaurants
 
-Primary key : ID
-
 Restaurants(<ins>ID</ins>, Nom, Places)
 
 |   Restaurants  |
@@ -69,9 +60,6 @@ Restaurants(<ins>ID</ins>, Nom, Places)
 | Places |
 
 ### Affectation_restaurant
-
-Primary keys : ID_restaurant, ID_employe  
-Foreign keys : ID_restaurant, ID_employe
 
 Affectation_restaurant(#<ins>ID_restaurant</ins>, #<ins>ID_employe</ins>, Date, Horaires, Duree)
 
@@ -85,8 +73,6 @@ Affectation_restaurant(#<ins>ID_restaurant</ins>, #<ins>ID_employe</ins>, Date, 
 
 ### Menus
 
-Primary key : ID
-
 Menus(<ins>ID</ins>, Nom, Prix)
 
 |   Menus   |
@@ -96,9 +82,6 @@ Menus(<ins>ID</ins>, Nom, Prix)
 | Prix |
 
 ### Acheter menu
-
-Primary keys : ID_restaurant ; ID_client ; ID_menu  
-Foreign keys : ID_restaurant ; ID_client ; ID_menu
 
 Acheter_menu(#<in>ID_restaurant</ins>, #<ins>ID_client</ins>, #<ins>ID_menu</ins>, Quantite)
 
@@ -111,8 +94,6 @@ Acheter_menu(#<in>ID_restaurant</ins>, #<ins>ID_client</ins>, #<ins>ID_menu</ins
 
 ### Attractions
 
-Primary key : ID
-
 Attractions(<ins>ID</ins>, Places, Affectations, Cout_horaire)
 
 |   Attractions   |
@@ -123,9 +104,6 @@ Attractions(<ins>ID</ins>, Places, Affectations, Cout_horaire)
 | Cout_horaire |
 
 ### Affectation attraction
-
-Primary keys : ID_attraction, ID_employe  
-Foreign keys : ID_attraction, ID_employe
 
 Affectation_attraction(#<ins>ID_attraction</ins>, #<ins>ID_employe</ins>, Date, Horaires, Duree)
 
