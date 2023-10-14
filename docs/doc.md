@@ -8,6 +8,7 @@ Nous aurons les tables:
 - Employes
 - Billets
 - Restaurants
+- Affectation_restaurant
 - Menus
 - Acheter_menu
 - Attractions
@@ -15,126 +16,103 @@ Nous aurons les tables:
 
 ### Clients
 
-Primary key : ID_client
-
-Clients(<ins>ID_client</ins>, Nom, Age)
+Clients(<ins>ID</ins>, Nom, Age)
 
 |   Clients   |
 |-------------|
-| ID_client |
+| ID |
 | Nom |
 | Age |
 
 ### Employes
 
-Primary key : ID_employe
-
-Employes(<ins>ID_employe</ins>, Nom, Prenom, Date_naissance, Role, Salaire_par_heure, Nb_heure_par_semaine)
+Employes(<ins>ID</ins>, Nom, Prenom, Date_naissance, Role, Salaire_horaire, Heures_hebdomadaires)
 
 |   Employes   |
 |--------------|
-| ID_employe |
-| Nom|
+| ID |
+| Nom |
 | Prenom |
 | Date_naissance | 
 | Role |
-| Salaire_par_heure |
-| Nb_heure_par_semaine |
+| Salaire_horaire |
+| Heures_hebdomadaires |
 
 ### Billets
 
-Primary key : ID_billet  
-Foreign key : ID_client
-
-Billets(<ins>ID_billet</ins>, #ID_client, Prix_billet, Billet_enfant)
+Billets(<ins>ID</ins>, #ID_client, Prix_billet, Enfant)
 
 |   Billets   |
 |-------------|
-| ID_billet |
+| ID |
 | ID_client |
-| Prix_billet |
-| Billet_enfant |
+| Prix |
+| Enfant |
 
 ### Restaurants
 
-Primary key : ID_restaurant  
-Foreign key : ID_employe
-
-Restaurants(<ins>ID_restaurant</ins>, Nom_restaurant, Nb_place)
+Restaurants(<ins>ID</ins>, Nom, Places)
 
 |   Restaurants  |
 |----------------|
-| ID_restaurant |
-| Nom_restaurant |
-| Nb_place |
+| ID |
+| Nom |
+| Places |
 
 ### Affectation_restaurant
 
-Primary keys : ID_restaurant ; ID_employe  
-Foreign keys : ID_restaurant ; ID_employe
-
-Affectation_restaurant(#<ins>ID_restaurant</ins>, #<ins>ID_employe</ins>, Date, Horaire_debut, Duree)
+Affectation_restaurant(#<ins>ID_restaurant</ins>, #<ins>ID_employe</ins>, Date, Horaires, Duree)
 
 |   Affectation_restaurant   |
 |----------------------------|
 | ID_restaurant |
 | ID_employe |
 | Date |
-| Horaire_debut |
+| Horaires |
 | Duree |
 
 ### Menus
 
-Primary key : ID_menu
-
-Menus(<ins>ID_menu</ins>, Nom_menu, Prix_menu)
+Menus(<ins>ID</ins>, Nom, Prix)
 
 |   Menus   |
 |-----------|
-| ID_menu |
-| Nom_menu |
-| Prix_menu |
+| ID |
+| Nom |
+| Prix |
 
 ### Acheter menu
 
-Primary keys : ID_restaurant ; ID_client ; ID_menu  
-Foreign keys : ID_restaurant ; ID_client ; ID_menu
-
-Acheter_menu(#<in>ID_restaurant</ins>, #<ins>ID_client</ins>, #<ins>ID_menu</ins>, Nb_menu)
+Acheter_menu(#<in>ID_restaurant</ins>, #<ins>ID_client</ins>, #<ins>ID_menu</ins>, Quantite)
 
 |   Acheter menu   |
 |------------------|
 | ID_restaurant |
 | ID_client |
 | ID_menu |
-| Nb_menu |
+| Quantite |
 
 ### Attractions
 
-Primary key : ID_attraction
-
-Attractions(<ins>ID_attraction</ins>, Nb_place, Nb_personnel, Cout_par_heure)
+Attractions(<ins>ID</ins>, Places, Affectations, Cout_horaire)
 
 |   Attractions   |
 |-----------------|
-| ID_attraction |
-| Nb_place |
-| Nb_personnel |
-| Cout_par_heure |
+| ID |
+| Places |
+| Affectations |
+| Cout_horaire |
 
 ### Affectation attraction
 
-Primary keys : ID_attraction ; ID_employe  
-Foreign keys : ID_attraction ; ID_employe
-
-Affectation_attraction(#<ins>ID_attraction</ins>, #<ins>ID_employe</ins>, Date, Horaire_debut, Duree)
+Affectation_attraction(#<ins>ID_attraction</ins>, #<ins>ID_employe</ins>, Date, Horaires, Duree)
 
 |   Affectation_attraction   |
 |----------------------------|
 | ID_attraction |
 | ID_employe |
 | Date |
-| Horaire_debut |
+| Horaires |
 | Duree |
 
 ## Schémas
