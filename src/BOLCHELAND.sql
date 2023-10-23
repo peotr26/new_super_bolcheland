@@ -82,6 +82,7 @@ INSERT INTO "Clients" VALUES (4030,'DUBOIS',8);
 INSERT INTO "Clients" VALUES (7394,'ROBERT',22);
 INSERT INTO "Clients" VALUES (7395,'ROBERT',16);
 INSERT INTO "Clients" VALUES (9304,'PETIT',86);
+
 INSERT INTO "Billets" VALUES (2561,1038,'39,99','False');
 INSERT INTO "Billets" VALUES (2562,1039,'39,99','False');
 INSERT INTO "Billets" VALUES (2563,2046,'39,99','False');
@@ -93,16 +94,17 @@ INSERT INTO "Billets" VALUES (2568,7394,'39,99','False');
 INSERT INTO "Billets" VALUES (2569,7395,'39,99','True');
 INSERT INTO "Billets" VALUES (2570,9304,'39,99','False');
 
-INSERT INTO "Menus" VALUES (0,'Spécialité Борщ',0.0);
-INSERT INTO "Menus" VALUES (1,'Spaguetto Bolo Carbo',41.99);
-INSERT INTO "Menus" VALUES (2,'Le Chiken nuggie',21.0);
-INSERT INTO "Menus" VALUES (3,'Truffes sur son lit de Caviar',1200.0);
-INSERT INTO "Menus" VALUES (4,'Mini-poellee de Souris',69.42);
-INSERT INTO "Menus" VALUES (5,'Chef Donald''s Peking Duck',69.69);
-INSERT INTO "Menus" VALUES (6,NULL,NULL);
-INSERT INTO "Menus" VALUES (7,NULL,NULL);
-INSERT INTO "Menus" VALUES (8,NULL,NULL);
-INSERT INTO "Menus" VALUES (9,NULL,NULL);
+INSERT INTO "Menus" VALUES (1,'Spécialité Борщ',0.0);
+INSERT INTO "Menus" VALUES (2,'Spaguetto Bolo Carbo',41.99);
+INSERT INTO "Menus" VALUES (3,'Le Chicken nuggie',21.0);
+INSERT INTO "Menus" VALUES (4,'Truffes sur leur lit de Caviar',1200.0);
+INSERT INTO "Menus" VALUES (5,'Mini-poellee de Souris',69.42);
+INSERT INTO "Menus" VALUES (6,'Canard laqué du chef Donald',69.69);
+INSERT INTO "Menus" VALUES (7,'Blinis Russes',19.99);
+INSERT INTO "Menus" VALUES (8,'Le Bortsch',14.99);
+INSERT INTO "Menus" VALUES (9,'Pirojkis',24.99);
+INSERT INTO "Menus" VALUES (10,'Boeuf Stroganov',29.99);
+
 INSERT INTO "Restaurants" VALUES (1,'Stalingrad',9);
 INSERT INTO "Restaurants" VALUES (2,'Leningrad',56);
 INSERT INTO "Restaurants" VALUES (3,'Moskva',130);
@@ -126,10 +128,12 @@ INSERT INTO "Employes" VALUES (15,'Ngo','Housna','2009-05-11','Plongiste',3.0,45
 INSERT INTO "Employes" VALUES (16,'Fernagu','Pierre','2006-02-26','H@ck€rhYuM4n',0.0,-1);
 INSERT INTO "Employes" VALUES (17,'Dovergne','Maxim','2006-09-16','H@ck€rhYuM4n',0.0,-1);
 INSERT INTO "Employes" VALUES (18,'Lefevre','Maxime','2006-09-28','H@ck€rhYuM4n',0.0,-1);
+
 INSERT INTO "Attractions" VALUES (1,30,1,90.0);
 INSERT INTO "Attractions" VALUES (2,150,3,300.0);
 INSERT INTO "Attractions" VALUES (3,75,3,175.0);
 INSERT INTO "Attractions" VALUES (4,80,2,120.0);
+
 INSERT INTO "Affectation_attraction" VALUES (1,11,'2023-9-23','10:00:00','02:00:00');
 INSERT INTO "Affectation_attraction" VALUES (2,12,'2023-9-23','12:00:00','03:00:00');
 INSERT INTO "Affectation_attraction" VALUES (2,2,'2023-9-23','12:00:00','03:00:00');
@@ -137,4 +141,6 @@ INSERT INTO "Affectation_attraction" VALUES (2,10,'2023-9-23','12:00:00','03:00:
 INSERT INTO "Affectation_attraction" VALUES (3,4,'2023-9-23','15:00:00','02:00:00');
 INSERT INTO "Affectation_attraction" VALUES (3,6,'2023-9-23','15:00:00','02:00:00');
 INSERT INTO "Affectation_attraction" VALUES (3,11,'2023-9-23','15:00:00','02:00:00');
+INSERT INTO "Affectation_attraction" VALUES (4,2,'2023-9-23','03:00:00','08:00:00');
+INSERT INTO "Affectation_attraction" VALUES (4,12,'2023-9-23','11:00:00','03:00:00');
 COMMIT;
