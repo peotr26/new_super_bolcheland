@@ -1,4 +1,4 @@
-SELECT Nom, Age
+SELECT Clients.Nom, Clients.Age
 FROM Clients
 JOIN Billets
 ON Billets.ID_client = Clients.ID
