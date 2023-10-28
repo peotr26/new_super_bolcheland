@@ -137,6 +137,11 @@ INSERT INTO "Affectation_attraction" VALUES (3,11,'2023-9-23','15:00:00','02:00:
 INSERT INTO "Affectation_attraction" VALUES (4,2,'2023-9-23','03:00:00','08:00:00');
 INSERT INTO "Affectation_attraction" VALUES (4,12,'2023-9-23','11:00:00','03:00:00');
 
+INSERT INTO "Restaurants" VALUES (1,'Stalingrad',9);
+INSERT INTO "Restaurants" VALUES (2,'Leningrad',56);
+INSERT INTO "Restaurants" VALUES (3,'Moskva',130);
+INSERT INTO "Restaurants" VALUES (4,'Kiev',30);
+
 INSERT INTO "Affectation_restaurant" VALUES (1,1,'2023-9-23','11:00:00','14:00:00');
 INSERT INTO "Affectation_restaurant" VALUES (3,1,'2023-9-23','18:00:00','22:00:00');
 INSERT INTO "Affectation_restaurant" VALUES (2,5,'2023-9-23','11:00:00','14:00:00');
@@ -156,11 +161,6 @@ INSERT INTO "Menus" VALUES (7,'Blinis Russes',19.99);
 INSERT INTO "Menus" VALUES (8,'Le Bortsch',14.99);
 INSERT INTO "Menus" VALUES (9,'Pirojkis',24.99);
 INSERT INTO "Menus" VALUES (10,'Boeuf Stroganov',29.99);
-
-INSERT INTO "Restaurants" VALUES (1,'Stalingrad',9);
-INSERT INTO "Restaurants" VALUES (2,'Leningrad',56);
-INSERT INTO "Restaurants" VALUES (3,'Moskva',130);
-INSERT INTO "Restaurants" VALUES (4,'Kiev',30);
 
 INSERT INTO "Acheter_menu" VALUES (1,1039,1,2);
 INSERT INTO "Acheter_menu" VALUES (2,2647,2,1);
