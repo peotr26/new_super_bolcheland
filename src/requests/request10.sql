@@ -2,4 +2,4 @@ SELECT DISTINCT Restaurants.ID, Restaurants.nom, Employes.Nom, Employes.Prenom, 
 FROM Restaurants
 JOIN Affectation_restaurant, Employes
 ON Employes.Role = 'Cuisinier'
-AND Restaurants.ID = 1 ;
+AND Restaurants.ID = 1;
