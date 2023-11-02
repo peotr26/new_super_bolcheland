@@ -158,7 +158,7 @@ INSERT INTO "Menus" VALUES (4,'Truffes sur leur lit de Caviar',1200.0);
 INSERT INTO "Menus" VALUES (5,'Mini-poellee de Souris',69.42);
 INSERT INTO "Menus" VALUES (6,'Canard laqué du chef Donald',69.69);
 INSERT INTO "Menus" VALUES (7,'Blinis Russes',19.99);
-INSERT INTO "Menus" VALUES (8,'Le Bortsch',14.99);
+INSERT INTO "Menus" VALUES (8,'Мороженое',14.99);
 INSERT INTO "Menus" VALUES (9,'Pirojkis',24.99);
 INSERT INTO "Menus" VALUES (10,'Boeuf Stroganov',29.99);
 
