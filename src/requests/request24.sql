@@ -17,6 +17,6 @@ GROUP BY
 	Menus.ID
 
 ORDER BY
-	"# Commandes" DESC
+	"# Commandes" DESC;
 
 

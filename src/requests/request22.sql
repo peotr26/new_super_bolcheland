@@ -11,4 +11,4 @@ WHERE
 	Restaurants.ID = Acheter_menu.ID_restaurant
 
 GROUP BY
-	Restaurants.ID
+	Restaurants.ID;

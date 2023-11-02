@@ -25,7 +25,7 @@ AND
 	Restaurants.ID IN (4,3)
 
 ORDER BY
-	Menus.Prix DESC
+	Menus.Prix DESC;
 
 -- GROUP BY
 -- 	Clients.Nom

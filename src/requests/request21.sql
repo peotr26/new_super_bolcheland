@@ -10,6 +10,6 @@ WHERE
 AND
 	Menus.ID = Acheter_menu.ID_menu
 AND
-	Menus.ID IN (7,3)
+	Menus.ID IN (7,3);
 
 

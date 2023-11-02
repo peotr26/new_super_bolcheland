@@ -16,5 +16,5 @@ AND
 
 
 ORDER BY
-	Menus.Nom ASC
+	Menus.Nom ASC;
 
