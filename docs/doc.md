@@ -67,7 +67,7 @@ Restaurants(<ins>ID</ins>, Nom, Places)
 | Nom         |
 | Places      |
 
-### Affectation_restaurant
+### Affectation restaurant
 
 Cette table associe un employé à un restaurant. Elle stocke les identifiants du restaurant et de l'employé, la date auquel l'employé travaillera dans le restaurant ainsi l'horaire du début et la durée.
 
