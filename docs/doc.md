@@ -67,7 +67,7 @@ Restaurants(<ins>ID</ins>, Nom, Places)
 | Nom         |
 | Places      |
 
-### Affectation restaurant
+### Affectation_restaurant
 
 Cette table associe un employé à un restaurant. Elle stocke les identifiants du restaurant et de l'employé, la date auquel l'employé travaillera dans le restaurant ainsi l'horaire du début et la durée.
 
@@ -94,13 +94,13 @@ Menus(<ins>ID</ins>, Nom, Prix)
 | Nom   |
 | Prix  |
 
-### Acheter menu
+### Acheter_menu
 
 Cette table associe un restaurant et un menu à un client. Elle stocke les identifiants du restaurant, du client et du menu, ainsi que le nombre de menus (quantité).
 
 Acheter_menu(#<in>ID_restaurant</ins>, #<ins>ID_client</ins>, #<ins>ID_menu</ins>, Quantite)
 
-| Acheter menu  |
+| Acheter_menu  |
 | ------------- |
 | ID_restaurant |
 | ID_client     |
@@ -120,7 +120,7 @@ Attractions(<ins>ID</ins>, Places, Affectations, Cout_horaire)
 | Affectations |
 | Cout_horaire |
 
-### Affectation attraction
+### Affectation_attraction
 
 Cette table associe un employé à une attraction. Elle stocke les identifiants de l'attraction et de l'employé, la date auquel l'employé travaillera à l'attraction ainsi l'horaire du début et la durée.
 
